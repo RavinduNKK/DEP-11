@@ -1,15 +1,13 @@
 public class Demo1 {
-    public static void main(String[] args) {
-       /*Single Line Comment */
-       
-       // Single Line Comment
-        System.out.println("hello comments"); //This is a trailing comment
-       /*
-        * Multi Line Comment
-        */
 
-        /**
-         * DOC (Documentation) Comments
-         */
-        }
+public static void main(String[] args) {
+    
+    final int id = 1;
+    String name = "Kasun";
+    double avgMarks = 65.29999;
+
+    System.out.printf("id=%d, name=%s, avgMarks=%.2f \n", id, name, avgMarks);
+    System.out.printf("id=S%04d, name=%s, avgMarks=%.2f \n", id, name, avgMarks);
+    
+}
 }

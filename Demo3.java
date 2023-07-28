@@ -1,24 +1,12 @@
 public class Demo3 {
     public static void main(String[] args) {
         
-        /*Data Types & Literals */
+        int id = 1;
+        String name = "kasun sampath";
+        System.out.printf("ID=C%04d, NAME=%s \n", id, name); 
 
-        // boolean
-        System.out.println(true);
-        System.out.println(false);
-
-        //intiger
-        System.out.println(0b100); //Binary
-        System.out.println(0b100l); //Binary
-        System.out.println(0b100L); //Binary
-        System.out.println(0B1010); //Binary
-        
-        System.out.println(101); //octal
-        System.out.println(0_10); //octal
-
-        System.out.println(10); //Decimal
-
-        System.out.println(0xF); //Hexadecimal
-        System.out.println(0XFAB);
+        String formattedString = String.format("ID=C%04d, Name=%s \n",id, name);
+        System.out.println(formattedString);
+    
     }
 }
